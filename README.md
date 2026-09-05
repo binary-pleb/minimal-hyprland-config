@@ -1,6 +1,4 @@
-# Minimal Hyprland Config (Catppuccin Mocha)
-
-A clean, aesthetic, and minimal **Hyprland** desktop configuration built around the **Catppuccin Mocha** color palette. Lightweight, functional, and visually cohesive.
+# A minimal hyprland config
 
 ---
 

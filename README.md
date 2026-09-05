@@ -1,0 +1,36 @@
+# Minimal Hyprland Config (Catppuccin Mocha)
+
+A clean, aesthetic, and minimal **Hyprland** desktop configuration built around the **Catppuccin Mocha** color palette. Lightweight, functional, and visually cohesive.
+
+---
+
+## Deps
+
+| Component | Tool | Description |
+| :--- | :--- | :--- |
+| **WM / Compositor** | [Hyprland](https://hyprland.org/) | Dynamic tiling Wayland compositor |
+| **Status Bar** | [Waybar](https://github.com/Alexays/Waybar) | Highly customizable Wayland bar |
+| **Wallpaper** | [awww](https://github.com/L3ur/awww) | Minimal, fast Wayland wallpaper daemon |
+| **App Launcher** | [Rofi-wayland](https://github.com/lbonn/rofi-wayland) | Application launcher and switcher |
+| **Screen Capture** | [Grim](https://sr.ht/~emersion/grim) + [Slurp](https://github.com/emersion/slurp) | Region selection & screenshot utility |
+| **Image Annotation** | [Satty](https://github.com/gabm/satty) | Modern screenshot annotation tool |
+
+---
+
+## Keybindings
+
+| Keybinding | Action |
+| :--- | :--- |
+| `ALT` + `Return` | Open Terminal |
+| `ALT` + `Space` | Rofi |
+| `ALT` + `Shift` + `Q` | Power Menu |
+| `ALT` + `Q` | Close Window |
+| `ALT` + `Print` | Screenshot (Grim + Slurp + Satty) |
+| `SUPER` + `M` | Exit Hyprland |
+
+---
+
+## Credits & Acknowledgments
+
+* **Rofi Theme:** Based on [outtheme-rofi-theme](https://github.com/OuterFrog/outtheme-rofi-theme) by **OuterFrog** (with minor edits).
+* **Catppuccin:** Colors scheme by the [Catppuccin Community](https://github.com/catppuccin/catppuccin).

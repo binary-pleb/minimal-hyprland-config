@@ -18,12 +18,12 @@ configuration {
 
 * {
     /* Colors - Nord */
-    darkbg: #2e3440ed; // Nord0
+    darkbg: #313244; // Nord 0
     lightbg: #434c5eed; // Nord2
     tcolor: #d8dee9; // Nord4
 
     /* Font */
-    font: "Open-Sans Regular 14";
+    font: "JetBrainsMono Nerd Font Mono 14";
 }
 
 window {
@@ -32,10 +32,10 @@ window {
     /* Ideally anchor should be north, 
     but it doesn't work on Wayland as of rofi 2.0.0 */
     location: center;
-    anchor: north;
+    anchor: center;
 
     /* General theming */
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: @darkbg;
     text-color: @tcolor;
     transparency: "screenshot";

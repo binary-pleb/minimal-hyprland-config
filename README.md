@@ -28,6 +28,12 @@
 
 ---
 
+## Screenshots
+
+![desktop](screenshots/desktop.png)
+![waybar](screenshots/waybar.png)
+![rofi](screenshots/rofi.png)
+
 ## Credits & Acknowledgments
 
 * **Rofi Theme:** Based on [outtheme-rofi-theme](https://github.com/OuterFrog/outtheme-rofi-theme) by **OuterFrog** (with minor edits).

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
+SET_WALLPAPER_CMD="awww img"
+
+MENU_ITEMS=""
+while IFS= read -r file; do
+    if [[ -n "$file" ]]; then
+        MENU_ITEMS+="${file}\0icon\x1f${WALLPAPER_DIR}/${file}\n"
+    fi
+done < <(ls "$WALLPAPER_DIR" | grep -E "\.(jpg|jpeg|png|webp)$")
+
+SELECTION=$(echo -en "$MENU_ITEMS" | rofi -dmenu \
+    -i \
+    -p "Wallpapers" \
+    -show-icons \
+    -theme-str 'configuration { hover-select: true; } element { orientation: vertical; } element-icon { size: 6ch; } listview { columns: 4; lines: 3; }')
+
+if [ -n "$SELECTION" ]; then
+    $SET_WALLPAPER_CMD "$WALLPAPER_DIR/$SELECTION"
+fi

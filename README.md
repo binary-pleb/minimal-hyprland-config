@@ -24,7 +24,6 @@
 | `ALT` + `Shift` + `Q` | Power Menu |
 | `ALT` + `Q` | Close Window |
 | `ALT` + `Print` | Screenshot (Grim + Slurp + Satty) |
-| `SUPER` + `M` | Exit Hyprland |
 
 ---
 

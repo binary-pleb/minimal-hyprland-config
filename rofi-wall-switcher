@@ -20,7 +20,7 @@ SELECTION=$(echo -en "$MENU_ITEMS" | rofi -dmenu \
             height: 85%; 
             location: center; 
             anchor: center; 
-            background-color: rgba(30, 30, 46, 0.85); 
+            background-color: rgba(30, 30, 46, 1); 
             border-radius: 12px; 
             padding: 20px; 
         } 

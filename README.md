@@ -22,6 +22,7 @@
 | `ALT` + `Return` | Open Terminal |
 | `ALT` + `Space` | Rofi |
 | `ALT` + `Shift` + `Q` | Power Menu |
+| `ALT` + `Shift` + `W` | Wallpaper switcher |
 | `ALT` + `Q` | Close Window |
 | `ALT` + `Print` | Screenshot (Grim + Slurp + Satty) |
 

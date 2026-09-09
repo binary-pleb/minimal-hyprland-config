@@ -56,7 +56,7 @@
     },
     "custom/power": {
 	    "format": "⏻ ",
-	    "on-click": "rofi-power-menu",
+	    "on-click": "~/.local/bin/rofi-power-menu",
 	    "tooltip": false
     },
     "network": {

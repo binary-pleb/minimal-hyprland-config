@@ -24,7 +24,8 @@
 | `ALT` + `Shift` + `Q` | Power Menu |
 | `ALT` + `Shift` + `W` | Wallpaper switcher |
 | `ALT` + `Q` | Close Window |
-| `ALT` + `Print` | Screenshot (Grim + Slurp + Satty) |
+| `ALT` + `Print` | Screenshot (select area) |
+| `Print` | Screenshot (entire screen) |
 
 ---
 
@@ -33,6 +34,7 @@
 ![desktop](screenshots/desktop.png)
 ![waybar](screenshots/waybar.png)
 ![rofi](screenshots/rofi.png)
+![wallpaper switcher](screenshots/rofi_wall_switcher.png)
 
 ## Credits & Acknowledgments
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-options="🔄 Reboot\n🛑 Shutdown\n 🚪 Log Out"
+options="  Reboot\n  Shutdown\n  Log Out"
 
 chosen=$(echo -e "$options" | rofi -dmenu -i -p "Power Menu:" \
     -theme-str 'mainbox {children: [ listview ];}' \

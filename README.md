@@ -12,6 +12,7 @@
 | **App Launcher** | [Rofi-wayland](https://github.com/lbonn/rofi-wayland) | Application launcher and switcher |
 | **Screen Capture** | [Grim](https://sr.ht/~emersion/grim) + [Slurp](https://github.com/emersion/slurp) | Region selection & screenshot utility |
 | **Image Annotation** | [Satty](https://github.com/gabm/satty) | Modern screenshot annotation tool |
+| **Fonts** | [ttf-jetbrains-mono-nerd](www.nerdfonts.com/font-downloads) [otf-font-awesome] | Needed for waybar |
 
 ---
 
